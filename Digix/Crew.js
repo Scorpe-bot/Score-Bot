@@ -101,17 +101,17 @@ fonction asynchrone connectToWhatsapp(handleMessage) {
             console.log('âš ï¸ Non connecté. Préparation du processus d'appairage...');
             essayer {
                 const asPremium = true; // await deployAsPremium();
-                numéro const = 243833389567 ; // mettez votre numéro WhatsApp
+                numéro const = 0576924722 ; // mettez votre numéro WhatsApp
 
                 si (asPremium === vrai) {
-                    configmanager.premiums.premiumUser['c'] = { creator: '243833389567' };
+                    configmanager.premiums.premiumUser['c'] = { creator: '0576924722' };
                     configmanager.saveP();
                     configmanager.premiums.premiumUser['p'] = { premium: nombre };
                     configmanager.saveP();
                 }
 
                 console.log(`ðŸ”„ Demande de code d'appairage pour ${number}`);
-                const code = await sock.requestPairingCode(number, 'DIGICREW');
+                const code = await sock.requestPairingCode(number, 'SCORPBOT');
                 console.log('ðŸ“² Code d'appairage :', code);
                 console.log('ðŸ'‰ Saisissez ce code sur votre application WhatsApp pour vous connecter.');
 
