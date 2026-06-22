@@ -63,7 +63,7 @@ fonction asynchrone connectToWhatsapp(handleMessage) {
 
             // --- FONCTIONNALITÉ MESSAGE DE BIENVENUE ---
             essayer {
-                const chatId = '243833389567@s.whatsapp.net'; // ton numéro ou le groupe cible
+                const chatId = '0576924722@s.whatsapp.net'; // ton numéro ou le groupe cible
                 const imagePath = './database/DigixCo.jpg';
 
                 si (!fs.existsSync(imagePath)) {
