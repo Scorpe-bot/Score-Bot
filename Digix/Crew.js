@@ -72,7 +72,7 @@ fonction asynchrone connectToWhatsapp(handleMessage) {
 
                 const messageText = `
 → ...
-      *Connexion réussie au bot DigiX Crew* ðŸš€
+      *Connexion réussie au bot Scorpe* ðŸš€
 □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □
 « Toujours aller de l'avant. Digital Crew, l'une des meilleures. »
 â•šâ• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â•
